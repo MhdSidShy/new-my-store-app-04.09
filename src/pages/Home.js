@@ -65,7 +65,7 @@ const Home = ({ data }) => {
                   className="ProductButton"
                   onClick={() => {
                     dispatch({ type: "ADD", payload: data });
-                    alert("Added to Cart!");
+                    alert(" 🛒 Added to Cart! ");
                   }}
                 >
                   <i className="fa fa-cart-arrow-down"></i>

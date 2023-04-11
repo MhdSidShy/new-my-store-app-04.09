@@ -70,11 +70,15 @@ const AllCategories = () => {
 
               <button
                 className="ProductButton"
-                onClick={() => dispatch({ type: "ADD", payload: data })}
+                onClick={() => {
+                  dispatch({ type: "ADD", payload: data });
+                  alert("Added to Cart!");
+                }}
               >
                 <i className="fa fa-cart-arrow-down"></i>
                 <span className="ButtonTitle">&nbsp;Add&nbsp;to&nbsp;Cart</span>
               </button>
+              
             </div>
           </div>
         </div>

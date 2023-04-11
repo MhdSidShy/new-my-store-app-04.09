@@ -90,7 +90,7 @@ const Navbar = () => {
             <button>
               <Link to="/Cart">
                 <i className="fa fa-cart-arrow-down"></i>
-                <span className="ButtonTitle">&nbsp;Your&nbsp;Cart</span>
+                <span className="ButtonTitle">&nbsp;Your&nbsp;Cart&nbsp;</span>
               </Link>
             </button>
           </div>

@@ -11,7 +11,6 @@ const Context = (props) => {
         );
         if (tempstate.length > 0) {
           return state;
-          // there are no Quantity I added Quantity
         } else {
           return [...state, { ...action.payload, Quantity: 0 }];
         }

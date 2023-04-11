@@ -7,9 +7,9 @@ import Context from "./components/Context";
 
 const root = createRoot(document.getElementById("root"));
 root.render(
- <BrowserRouter>
- <Context>
- <App />
- </Context>
- </BrowserRouter>
+  <BrowserRouter>
+    <Context>
+      <App />
+    </Context>
+  </BrowserRouter>
 );

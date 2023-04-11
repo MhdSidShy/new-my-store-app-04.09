@@ -1,162 +1,162 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 #root {
- display: flex;
- flex-direction: column;
- justify-Content: center;
- align-items: center;
- flex-wrap: nowrap;
- text-align: center;
- align-Content: center;
- width: 75%;
- height: auto;
- 
- 
- margin-left: auto;
- margin-right: auto;
- margin-top: auto;
- margin-bottom: auto;
- padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-Content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    text-align: center;
+    align-Content: center;
+    width: 75%;
+    height: auto;
+
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 50px;
 }
 
 
 /*------*/
 
 nav {
- display: flex;
- flex-direction: column;
- justify-Content: center;
- align-items: center;
- flex-wrap: nowrap;
+    display: flex;
+    flex-direction: column;
+    justify-Content: center;
+    align-items: center;
+    flex-wrap: nowrap;
 
- position: fixed;
- top: 0;
- left: 0;
- right: 0;
- z-index: 999;
- background-color: #cedcb4;
- width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: #cedcb4;
+    width: 100%;
 
- margin-left: auto;
- margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
 .Site {
- display: flex;
- flex-direction: column;
- justify-Content: center;
- align-items: center;
- flex-wrap: wrap;
- font-weight: bold;
- color: #ae4141;
+    display: flex;
+    flex-direction: column;
+    justify-Content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight: bold;
+    color: #ae4141;
 }
 
 
 .Menu {
- display: flex;
- flex-wrap: wrap;
- flex: auto;
- flex-direction: row;
- justify-Content: center;
- align-items: center;
- text-align: center;
- position: relative;
- width: 100%;
- height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex: auto;
+    flex-direction: row;
+    justify-Content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: auto;
 
- margin-left: 5px;
- margin-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .MenuElements {
- display: flex;
- justify-content: space-around;
- align-items: center;
- flex-wrap: nowrap;
- flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
 
- margin-left: 100%;
- margin-right: 100%;
+    margin-left: 100%;
+    margin-right: 100%;
 }
 
 .MenuHome {
- margin-left: 5px;
- margin-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
 
- display: flex;
- justify-content: space-around;
- flex-wrap: nowrap;
- align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
 .MenuHome a {
- display: flex;
- justify-content: space-around;
- align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
- margin-left: auto;
- margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .MenuCategories {
- margin-left: 5px;
- margin-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
 
- display: flex;
- justify-content: center;
- align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .MenuCategories select {
- display: flex;
- justify-content: space-around;
- flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 
- margin-left: 5px;
- margin-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 
 
 .MenuCart {
- display: flex;
- justify-content: space-around;
- align-items: center;
- flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 
- margin-left: 5px;
- margin-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
 
 }
 
 .MenuCart a {
- display: flex;
- align-items: center;
- justify-content: space-around;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 
- margin-left: auto;
- margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .MenuCart a i {
- display: flex;
- justify-content: space-around;
- flex-wrap: wrap;
- align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
 
- margin-left: auto;
- margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .MenuCart a span {
- display: flex;
- justify-content: space-around;
- align-items: center;
- flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 
- margin-left: auto;
- margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -164,431 +164,433 @@ nav {
 
 
 .AllCategories {
- display: flex;
- justify-content: center;
- align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
- margin-left: auto;
- margin-right: auto;
- flex-wrap: wrap;
- flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .CategoryProducts {
- display: flex;
- flex-direction: row;
+    display: flex;
+    flex-direction: row;
 
- margin-left: auto;
- margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 
- padding-left: 0px;
- padding-right: 0px;
- padding-top: 0px;
- padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 
- justify-content: center;
- flex-wrap: wrap;
- align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 
 .CategoryProducts .PageBody {
- flex-wrap: nowrap;
- padding-left: 5px;
- padding-right: 5px;
- padding-top: 5px;
+    flex-wrap: nowrap;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
 
- padding-bottom: 5px;
- margin-left: 5px;
- margin-right: 5px;
- margin-top: 5px;
- margin-bottom: 5px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .CategoryProducts .PageBody .Container {
- flex-direction: column;
- justify-content: center;
- flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
 
- margin-left: auto;
- margin-right: auto;
- margin-top: auto;
- margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 
 .Menu.open {
- height: 95%;
+    height: 95%;
 }
 
 .CategoryProducts.open {
- height: 95%;
+    height: 95%;
 }
 
 .CategoryProducts .PageBody.open {
- height: 95%;
+    height: 95%;
 }
 
 .CategoryProducts .PageBody .Card.open {
- height: 95%;
+    height: 95%;
 }
 
 
 .CategoryProducts .PageBody .Card.open {
- width: 100%;
- height: 95%;
+    width: 100%;
+    height: 95%;
 }
 
 nav.open {
- width: 100%;
- height: 95%;
+    width: 100%;
+    height: 95%;
 }
 
 .Menu.open {
- width: 100%;
- height: 95%;
+    width: 100%;
+    height: 95%;
 }
 
 /*------*/
 
 footer {
- position: fixed;
- bottom: 0;
- left: 0;
- right: 0;
- z-index: 999;
- background-color: #cedcb4;
- display: flex;
- justify-Content: center;
- width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: #cedcb4;
+    display: flex;
+    justify-Content: center;
+    width: 100%;
 }
 
 /*------*/
 
 .PageBody {
- display: flex;
- flex-direction: column;
- justify-Content: center;
- flex-wrap: wrap;
- align-items: center;
- align-Content: center;
- transform: translatex(0px) translatey(0px);
- background-color: #f2f2f2;
- font-family: Arial, Helvetica, sans-serif;
- padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-Content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-Content: center;
+    transform: translatex(0px) translatey(0px);
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
 
- padding-top: 50px;
- padding-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
 
- margin: 5px;
+    margin: 5px;
 
- position: relative;
- top: 50px
+    position: relative;
+    top: 50px
 }
 
 .Welcome {
- color: #333;
- font-weight: bolder;
- font-style: italic;
- margin: auto;
- padding: 5px;
- text-align: center;
+    color: #333;
+    font-weight: bolder;
+    font-style: italic;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
 }
 
 .Container {
- display: flex;
- flex-wrap: wrap;
- justify-Content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    justify-Content: space-around;
 
- padding: 5px;
- margin: auto;
+    padding: 5px;
+    margin: auto;
 
- align-items: center;
- align-self: center;
+    align-items: center;
+    align-self: center;
 
 }
 
 .Card {
- display: flex;
- justify-Content: center;
- transform: translatex(0px) translatey(0px);
+    display: flex;
+    justify-Content: center;
+    transform: translatex(0px) translatey(0px);
 
- align-items: center;
- align-self: center;
- text-align: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
 
- flex: auto;
- flex-direction: column;
- flex-wrap: wrap;
+    flex: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
 
- background-color: #fff;
- box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 
- margin: 5px;
- padding: 5px;
+    margin: 5px;
+    padding: 5px;
 
 
 }
 
 .Content {
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- flex-wrap: nowrap;
- align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
 
- height: 200px;
- width: 150px;
+    height: 200px;
+    width: 150px;
 
- text-align: center;
+    text-align: center;
 
- margin: auto;
+    margin: auto;
 }
 
 .id {
- border-radius: 100%;
- background-color: #333;
- color: #fff;
- font-size: 10px;
- font-weight: bold;
- line-height: 25px;
- position: absolute;
- text-align: center;
- top: 5px;
- left: 7.5px;
- width: 25px;
+    border-radius: 100%;
+    background-color: #333;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 25px;
+    position: absolute;
+    text-align: center;
+    top: 5px;
+    left: 7.5px;
+    width: 25px;
 }
 
 .image {
- display: flex;
- flex-wrap: wrap;
- justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
- min-height: 150px;
- min-width: 150px;
+    min-height: 150px;
+    min-width: 150px;
 
- align-items: center;
- margin-left: auto;
- margin-right: auto;
- margin-top: auto;
- margin-bottom: auto;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 
 }
 
 img {
- display: flex;
- flex-wrap: wrap;
- justify-Content: center;
- max-height: 150px;
- max-width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-Content: center;
+    max-height: 150px;
+    max-width: 150px;
 
- align-items: center;
- margin-right: auto;
- margin-left: auto;
- margin-top: auto;
- margin-bottom: auto;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .title {
- display: flex;
- flex-wrap: wrap;
- flex-direction: column;
- justify-Content: center;
- align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-Content: center;
+    align-items: center;
 
- height: auto;
+    height: auto;
 
- font-size: small;
- margin: auto;
+    font-size: small;
+    margin: auto;
 
 }
 
 .prices {
- display: flex;
- border-top: solid 1px black;
+    display: flex;
+    border-top: solid 1px black;
 }
 
 .price {
- display: none;
+    display: none;
 }
 
 
 
 .Rate {
- display: flex;
- align-items: center;
- justify-Content: center;
+    display: flex;
+    align-items: center;
+    justify-Content: center;
 }
 
 .category {
- display: flex;
- flex-direction: row;
- justify-Content: center;
- align-items: center;
- flex-wrap: wrap;
- font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-Content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 12px;
 }
 
 .ProductButton {
- display: flex;
- justify-Content: center;
- align-items: center;
- flex-wrap: wrap;
- margin-left: auto;
- margin-right: auto;
+    display: flex;
+    justify-Content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .Links {
- margin: auto;
+    margin: auto;
 }
 
 a:hover {
- color: #f1356d;
+    color: #f1356d;
 }
 
 .info .title {
- font-size: 24px;
- text-align: center;
- flex-wrap: wrap;
- align-items: flex-start;
- margin-top: auto;
- margin-bottom: 20px;
- margin-left: auto;
- margin-right: auto;
+    font-size: 24px;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .info .prices {
- display: table-cell;
- align-items: flex-start;
- flex-direction: row;
- flex-wrap: nowrap;
- justify-content: flex-start;
+    display: table-cell;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
 
- margin-left: auto;
- margin-right: auto;
- margin-top: auto;
- margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .info .description {
- text-align: justify;
- margin-left: 5px;
- margin-right: 5px;
- margin-top: 5px;
- margin-bottom: 5px;
- padding-left: 5px;
- padding-right: 5px;
- padding-top: 5px;
- padding-bottom: 5px;
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 
 .SingleProduct .Card .Container {
- flex-wrap: nowrap;
+    flex-wrap: nowrap;
 }
 
 
 
 
 .CartPage {
- display: flex;
- justify-content: space-between;
- flex-wrap: wrap;
- flex-direction: column;
- height: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 5%;
 }
 
 .CartPage .PageBody {
- display: flex;
- justify-content: space-between;
- padding-top: 5px;
- padding-bottom: 5px;
- height: auto;
- flex-direction: row;
- flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .CartPage .PageBody .Container {
- display: flex;
- justify-content: space-between;
- flex-wrap: wrap;
- flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 
 
 .CartPage .PageBody .Card {
- flex-direction: column;
+    flex-direction: column;
 }
 
 .CartPage .PageBody .Container {
- height: auto;
- width: auto;
+    height: auto;
+    width: auto;
 }
 
 
 .ProductsTotal {
- border-top: solid 1px black;
+    border-top: solid 1px black;
 
- display: inline-flex;
+    display: inline-flex;
 
- margin-left: auto;
- margin-right: auto;
- margin-top: auto;
- margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
- 
-#root nav{
- height:100px;
- width:100%;
- }
- 
- 
-.CategoryBody{
- display:flex;
- flex-wrap:wrap;
- justify-content:center;
- align-items:center;
- margin:auto;
- 
- }
 
- 
-#root .CartPage .PageBody{
- height:75%;
- width:100%;
- flex-direction:column;
- justify-content:center;
- }
- 
- 
-.addedProducts{
- display: flex;
- flex-wrap: wrap;
- }
+#root nav {
+    height: 100px;
+    width: 100%;
+}
 
- body{
- display:flex;
- justify-content:center;
- align-items:center;
- flex-wrap:wrap;
- flex-direction:column;
- overflow:scroll;
- padding: 50px;
 
- }
- 
- 
- .Hesap {
- display: flex;
- align-items: center; 
- }
- 
- .prices {
-padding: 5px; }
- 
- .Quantity {
- padding: 5px; }
+.CategoryBody {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+
+#root .CartPage .PageBody {
+    height: 75%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.addedProducts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow: scroll;
+    padding: 50px;
+
+}
+
+
+.Hesap {
+    display: flex;
+    align-items: center;
+}
+
+.prices {
+    padding: 5px;
+}
+
+.Quantity {
+    padding: 5px;
+}

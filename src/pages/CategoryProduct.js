@@ -5,16 +5,16 @@ import "./App.css";
 import { Route, Routes } from "react-router-dom";
 
 const CategoryProduct = () => {
- const [data, setData] = useState([]);
+  const [data, setData] = useState([]);
 
- useEffect(() => {
- ProductsCategories();
- }, []);
- const ProductsCategories = async () => {
- const response = await fetch(
- "https://fakestoreapi.com/Products/category/{data?.category}"
- );
- const jsonData = await response.json();
- setData(jsonData);
- };
+  useEffect(() => {
+    ProductsCategories();
+  }, []);
+  const ProductsCategories = async () => {
+    const response = await fetch(
+      "https://fakestoreapi.com/Products/category/{data?.category}"
+    );
+    const jsonData = await response.json();
+    setData(jsonData);
+  };
 };

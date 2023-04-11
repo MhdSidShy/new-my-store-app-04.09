@@ -10,30 +10,30 @@ import AllCategories from "./pages/Category";
 import Cart from "./pages/Cart";
 
 const App = () => {
- const [data, setData] = useState([]);
+  const [data, setData] = useState([]);
 
- useEffect(() => {
- fakestore();
- }, []);
+  useEffect(() => {
+    fakestore();
+  }, []);
 
- const fakestore = async () => {
- const response = await fetch("https://fakestoreapi.com/Products");
- const jsonData = await response.json();
- setData(jsonData);
- };
+  const fakestore = async () => {
+    const response = await fetch("https://fakestoreapi.com/Products");
+    const jsonData = await response.json();
+    setData(jsonData);
+  };
 
- return (
- <>
- <Navbar />
- <Routes>
- <Route path="/" element={<Home data={data} />} />
- <Route path="/products/:id" element={<SingleProduct data={data} />} />
- <Route path="/categories/:category" element={<AllCategories />} />
- <Route path="/cart" element={<Cart />} />
- </Routes>
- <Footer />
- </>
- );
+  return (
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home data={data} />} />
+        <Route path="/products/:id" element={<SingleProduct data={data} />} />
+        <Route path="/categories/:category" element={<AllCategories />} />
+        <Route path="/cart" element={<Cart />} />
+      </Routes>
+      <Footer />
+    </>
+  );
 };
 
 export default App;
